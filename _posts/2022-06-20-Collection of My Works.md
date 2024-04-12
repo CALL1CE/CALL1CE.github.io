@@ -1,5 +1,5 @@
 ---
-title: 个人作品集（持续更新中）
+title: Collection of My Works
 date: 2022-06-20 20:20:00 +0800
 categories: [游戏设计]
 tags: [学习笔记, 游戏开发]
