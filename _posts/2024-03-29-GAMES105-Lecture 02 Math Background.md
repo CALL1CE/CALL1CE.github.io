@@ -68,5 +68,5 @@ pdf地址：[Math Background](https://games-105.github.io/ppt/02%20-%20Math%20Ba
 [![pFobvxx.jpg](https://s21.ax1x.com/2024/03/29/pFobvxx.jpg)](https://imgse.com/i/pFobvxx)
     * 缺点是旋转速度不是恒定的
     * SLER：Spherical Linear Interpolation来解决速度问题
-
+[![pkS4RSO.jpg](https://s21.ax1x.com/2024/04/20/pkS4RSO.jpg)](https://imgse.com/i/pkS4RSO)
   * 容易构造、容易应用旋转、容易插值、没有万向锁
