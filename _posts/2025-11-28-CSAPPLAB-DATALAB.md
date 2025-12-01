@@ -44,7 +44,7 @@ int bitXor(int x, int y) {
 
 ## 2
 
-```C
+```c
 /* 
  * tmin - return minimum two's complement integer 
  *   Legal ops: ! ~ & ^ | + << >>
@@ -163,7 +163,7 @@ int negate(int x) {
 
 ## 6
 
-```C
+```c
 //3
 /* 
  * isAsciiDigit - return 1 if 0x30 <= x <= 0x39 (ASCII codes for characters '0' to '9')
@@ -181,7 +181,7 @@ int isAsciiDigit(int x) {
 
 ​	我先想到了暴力做法，通过^可以遍历一下x是不是‘0’-‘9’，是那么必然有一项是0其他都是大于0的数，取个！就能把这个关系变成1和0，再一\|，但凡有一个1就是1，也就是说在‘0‘-‘9’。但是这不符合条件要求的15个ops。
 
-```C
+```c
 int isAsciiDigit(int x) {
   return (!((x+(~0x30+1)>>31) | ((0x39+(~x+1))>>31)));
 }
@@ -206,7 +206,7 @@ int isAsciiDigit(int x) {
 
 ## 7
 
-```C
+```c
 /* 
  * conditional - same as x ? y : z 
  *   Example: conditional(2,4,5) = 4
@@ -233,7 +233,7 @@ int conditional(int x, int y, int z) {
 
 ## 8
 
-```C
+```c
 /* 
  * isLessOrEqual - if x <= y  then return 1, else return 0 
  *   Example: isLessOrEqual(4,5) = 1.
@@ -282,7 +282,7 @@ int isLessOrEqual(int x, int y) {
 
 ## 9
 
-```C
+```c
 //4
 /* 
  * logicalNeg - implement the ! operator, using all of 
@@ -317,7 +317,7 @@ int logicalNeg(int x) {
 
 ## 10
 
-```C
+```c
 /* howManyBits - return the minimum number of bits required to represent x in
  *             two's complement
  *  Examples: howManyBits(12) = 5
@@ -397,7 +397,7 @@ $$
 
 ## 11
 
-```C
+```c
 //float
 /* 
  * floatScale2 - Return bit-level equivalent of expression 2*f for
@@ -483,7 +483,7 @@ unsigned floatScale2(unsigned uf) {
 
 ## 12
 
-```C
+```c
 /* 
  * floatFloat2Int - Return bit-level equivalent of expression (int) f
  *   for floating point argument f.
@@ -521,7 +521,7 @@ int floatFloat2Int(unsigned uf) {
 
 ## 13
 
-```C
+```c
 /* 
  * floatPower2 - Return bit-level equivalent of the expression 2.0^x
  *   (2.0 raised to the power x) for any 32-bit integer x.
