@@ -205,9 +205,13 @@ void phase_2(char *input_string) {
     // 也就是等比数列: 1 2 4 8 16 32
 }
 ```
+
 **在做这道题目的时候，有一系列的问题，就汇总到附录2里了**。
 答案是“1 2 4 8 16 32”
+
+
 ## 3
+
 ```nasm
 0000000000400f43 <phase_3>:
   400f43:	48 83 ec 18          	sub    $0x18,%rsp
@@ -292,6 +296,7 @@ void phase_3(char *input) {
 ```
 
 ## 4
+
 ```nasm
 000000000040100c <phase_4>:
   40100c:	48 83 ec 18          	sub    $0x18,%rsp
@@ -635,7 +640,7 @@ Phase 6 是二进制炸弹中最复杂的关卡，其本质是**对单向链表�
 
 codeC
 
-```
+```c
 struct Node {
     int value;      // 节点数值（用于比较大小）
     int id;         // 节点编号 (1-6)
@@ -647,9 +652,8 @@ struct Node {
 
 整个汇编过程可以拆解为四个核心步骤：
 
-codeC
 
-```
+```c
 void phase_6(char* input_str) {
     int input[6];
     read_six_numbers(input_str, input); // 读取6个数字
